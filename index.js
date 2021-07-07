@@ -35,7 +35,7 @@ const main = async() => {
                 const weather = await searches.cityWeather(selectedPlace.lat, selectedPlace.lng);
                 
                 // Show result
-                // console.clear();
+                console.clear();
                 console.log('\nCity\'s information\n'.green);
                 console.log('City:', selectedPlace.name);
                 console.log('Lat:', selectedPlace.lat);
